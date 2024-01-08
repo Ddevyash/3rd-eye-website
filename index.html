@@ -12,7 +12,6 @@
     <div class="navigation">
         <div><a href="./index.html"><img class="logo" src="./Images/web-logo.png" alt=""></a></div>
       
-      <div>
         <ul class="nav-menu">
           <a href="./index.html"><li>HOME</li><hr></a> 
           <a href="./service.html"><li>SERVICES</li></a>
@@ -20,7 +19,11 @@
           <a href="./why.html"><li>WHY HIRE A DETECTIVE</li></a>
           <a href="./about.html"><li>ABOUT US</li></a>
         </ul>
+        <img src="./Images/hamburger.png" alt="" class="ham">
+        <img src="./Images/Close.png" alt="" class="cancel">
+        
       </div>
+      
     </div>
 
     <!-- Container -->
@@ -126,5 +129,26 @@
 
     
     <a href="./contact.html"><button>contact us</button></a>
+
+
+
+
+    <script>
+      
+      let toggle = document.querySelector('.ham');
+        toggle.addEventListener('click',function(){
+           document.querySelector('.nav-menu').style.display='block';
+           document.querySelector('.cancel').style.display='block';
+           this.style.display='none';
+        })
+        let closebtn = document.querySelector('.cancel');
+            closebtn.addEventListener('click',function(){
+           document.querySelector('.nav-menu').style.display='none';
+           document.querySelector('.ham').style.display='block';
+           this.style.display='none';
+        }) 
+    
+
+    </script>
   </body>
 </html>
