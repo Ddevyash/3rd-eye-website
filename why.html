@@ -20,6 +20,8 @@
           <a href="./why.html"><li>WHY HIRE A DETECTIVE</li><hr></a>
           <a href="./about.html"><li>ABOUT US</li></a>
         </ul>
+        <img src="./Images/Close.png" alt="" class="cancel">
+        <img src="./Images/hamburger.png" alt="" class="ham">
       </div>
     </div>
     
@@ -40,18 +42,23 @@
       <h1>Background Check:</h1>
       <p>Employers may hire private detectives to conduct thorough background checks on potential employees, ensuring they have accurate and reliable information for hiring decisions.
       </p>
+      <img src="./Images/images (1).jpeg" alt="">
 
       <h1>Family Investigation:</h1>
       <p>Private detectives may be hired to address various family matters, including disputes, background checks on potential family members, or locating estranged relatives.</p>
+      <img src="./Images/family font.jpg" alt="" width="670px">
 
       <h1>Legal Consultation and Investigation Service:</h1>
       <p>Private detectives can provide support in legal cases by gathering evidence, interviewing witnesses, and conducting investigations to strengthen a client's position.</p>
+      <img src="./Images/images (4).jpeg" alt="">
 
       <h1>Spousal Investigation:</h1>
       <p>People may choose to hire a private detective for spousal investigation for various reasons, often related to divorce or legal preceedinf, concerns or suspicions within a relationship which can either be infedility suspicions, Child Custody Concerns, Asset and Financial Investigations, Emotional Closure, Security Concerns, Reassurance or Peace of Mind, and so many more reasons. At </p>
+      <img src="./Images/couple.jpg" alt="" width="670px">
 
       <h1>Corporate Investigation:</h1>
       <p> Businesses may hire private detectives to investigate internal matters such as employee theft, fraud, or other misconduct, or to gather intelligence on competitors.</p>
+      <img src="./Images/images (5).jpeg" alt="" width="670px">
       
 
       </div>
@@ -81,6 +88,19 @@
 
     </div>
    
-
+    <script>
+       let toggle = document.querySelector('.ham');
+toggle.addEventListener('click',function(){
+   document.querySelector('.nav-menu').style.display='block';
+   document.querySelector('.cancel').style.display='block';
+   this.style.display='none';
+})
+let closebtn = document.querySelector('.cancel');
+    closebtn.addEventListener('click',function(){
+   document.querySelector('.nav-menu').style.display='none';
+   document.querySelector('.ham').style.display='block';
+   this.style.display='none';
+}) 
+    </script>
       </body>
 </html>

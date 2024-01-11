@@ -100,7 +100,7 @@ color: white;
 
 .first{
 height: 270px;
-background-image: url(./Images/images\ \(5\).jpeg);
+background-image: url(./Images/images\ \(10\ \(1\).jpeg);
 background-repeat: no-repeat;
 background-position: center;
 position: relative;
@@ -109,16 +109,17 @@ box-shadow: 10px 10px 5px grey;
 
 .second{
 height: 270px;
-background-image: url(./Images/images\ \(4\).jpeg);
+background-image: url(./Images/couple.jpg);
 position: relative;
 box-shadow: 10px 10px 5px  grey;
 }
 
 .third{
 height: 270px;
-background-image: url(./Images/images\ \(7\).jpeg);
-position: relative;
+background-image: url(./Images/family.jpg);
+background-position: center;
 box-shadow: 10px 10px 5px grey;
+position: relative;
 }
 
 .fourth{
@@ -180,6 +181,11 @@ top: 212px;
 .seventh h2{
     position: absolute;
     top: 216px;
+}
+
+.third h2{
+    position: absolute;
+    top: 240px;
 }
 
 
@@ -264,7 +270,7 @@ h1{
 }
 
 .home-page-image img{
-    width: 300px;
+    width: 400px;
     padding-left: 60px;
 }
 
@@ -358,7 +364,9 @@ h4{
 @media screen and (max-width:691px){
 
     .body{
-        
+        padding: 0;
+        margin: 0;
+
     }
 
     .navigation{
@@ -588,7 +596,7 @@ h4{
 .cancel{
     display: none;
     width: 60px;
-    padding-right: 600px;
+    padding-right: 100px;
 }
 
 

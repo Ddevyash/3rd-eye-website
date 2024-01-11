@@ -197,6 +197,17 @@ cursor: pointer;
     margin-top: 20px;
 }
 
+.ham{
+    width: 35px;
+    display: none;
+}
+
+.cancel{
+        text-align: right;
+        display: none;
+}
+
+
 @media screen and (max-width:691px) {
 
 
@@ -215,22 +226,24 @@ cursor: pointer;
     top: 0;
 }
 
+
 .nav-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    list-style: none;
-    font-weight: bold;
-    column-gap: 20px;   
-    margin-right: 80px;
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1200px;
+    width: 690px;
+    background-color: white;
+
 }
 
 .navigation a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
+    line-height: 80px;
+    
 }
 
 
@@ -247,6 +260,7 @@ color: white;
     height: 60px;
     width: 220px;
     margin-left: 40px;
+    margin-top: 29px;
 }
 
 /* container */
@@ -397,6 +411,19 @@ cursor: pointer;
     margin-left: 150px;
     margin-top: 20px;
 }
+
+.ham{
+    display: block;
+    padding-right: 600px;
+    width: 60px;
+}
+
+.cancel{
+    display: none;
+    width: 60px;
+    padding-right: 100px;
+}
+
 
 
 }
